@@ -2,6 +2,7 @@ import "./globals.css";
 import { Urbanist } from "next/font/google";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
+import ToastProvider from '@/providers/toast-provider'
 
 const font = Urbanist({ subsets: ["latin"] });
 
